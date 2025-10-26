@@ -70,7 +70,7 @@ export const deleteMedication = async (idToDelete: number) => {
     // Save updated list back to AsyncStorage
     await AsyncStorage.setItem(MED_KEY, JSON.stringify(updatedMeds));
     
-    // A check to verify deletion and low new storage state
+    // A check to verify deletion and load new storage state
     const verify = await AsyncStorage.getItem(MED_KEY);
     console.log("Storage after saving delete:", JSON.parse(verify || "[]"));
   } catch (error) {

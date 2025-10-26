@@ -38,6 +38,10 @@ medtracker/
 │   │   ├── TmcDatePicker.tsx
 │   │   ├── TmcDatePicker.types.tsx
 │   │   ├── TmcDatePicker.web.tsx
+│   ├── styles/
+│   │   ├── colors.tsx
+│   │   ├── GlobalStyles.tsx
+│   │   ├── typography.tsx
 │   ├── utils/
 │   │   ├── alert.tsx
 │   │   ├── asyncStorage.tsx
