@@ -1,6 +1,6 @@
 💊 MedTracker
 ==================================================
-MedTracker is a simple and user-friendly app that helps users remember to take their medications on time. It also provides a centralized place to manage all medications, track reminders, and maintain adherence.
+MedTracker is a simple and user-friendly cross-platform (iOS/Android/Web) app that helps users remember to take their medications on time. It also provides a centralized place to manage all medications, track reminders, and maintain adherence.
 
 🌱 Motivation
 ==================================================
@@ -76,17 +76,17 @@ npx expo start --web
 ==================================================
 
 ### Home Screen
-Overview of all your medications and daily reminders.
+# Overview of all your medications and daily reminders.
 ![Home screen](assets/screenshots/home.png)
 
 ### Add Medication
-Add a new medication with dose, frequency, start date, optional end date and, on mobile, a notification reminder.
+# Add a new medication with dose, frequency, start date, optional end date and, on mobile, a notification reminder.
 ![Add Medication](assets/screenshots/add_Medication.png)
 
 ### Delete medication
-Swipe (mobile) or tap (web) to reveal the delete button, then confirm deletion.
+# Swipe (mobile) or tap (web) on medication to reveal the delete button, then confirm deletion.
 ![Deletion](assets/screenshots/delete.png)
 
 ### Medication reminder
-Example of a notification reminder when it’s time to take a medication.
+# Example of a notification reminder when it’s time to take a medication.
 ![Medication Reminder](assets/screenshots/notification.png)
